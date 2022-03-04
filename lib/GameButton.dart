@@ -8,12 +8,14 @@ class GameButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(child: Container(
+      color: Colors.red,
       margin: EdgeInsets.all(4),
       child: ElevatedButton(
-        onPressed: (){
+        onPressed: () {
           onButtonClicked(index);
         },
-        child: Text(symbol,style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold)),
+        child: Text(symbol,
+            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
       ),
     ));
   }
