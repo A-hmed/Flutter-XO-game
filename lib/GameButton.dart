@@ -8,8 +8,8 @@ class GameButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(child: Container(
-      color: Colors.yellow,
-      margin: EdgeInsets.all(4),
+      color: Colors.blue,
+      margin: EdgeInsets.all(5),
       child: ElevatedButton(
         onPressed: () {
           onButtonClicked(index);
